@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>All website Search</title>
+  <title>All Website Search</title>
 </head>
 <body>
+
+  <h2>YouTube Search</h2>
   <form action="https://www.youtube.com/results" method="GET">
     <input
       type="text"
@@ -13,7 +15,9 @@
     >
     <button type="submit">Search</button>
   </form>
-    <form action="https://www.google.com/search"method="GET">
+
+  <h2>Google Search</h2>
+  <form action="https://www.google.com/search" method="GET">
     <input
       type="text"
       placeholder="Search Google..."
@@ -22,5 +26,17 @@
     >
     <button type="submit">Search</button>
   </form>
+
+  <h2>Wikipedia Search</h2>
+  <form action="https://en.wikipedia.org/w/index.php" method="GET">
+    <input
+      type="text"
+      placeholder="Search Wikipedia..."
+      name="search"
+      required
+    >
+    <button type="submit">Search</button>
+  </form>
+
 </body>
 </html>

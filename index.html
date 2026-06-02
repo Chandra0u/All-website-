@@ -1,9 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>All Website Search</title>
+  <title>All Website Search 🔍</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4, #a18cd1);
+      color: white;
+    }
+
+    h1 {
+      color: yellow;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    h2 {
+      color: cyan;
+    }
+
+    form {
+      margin: 20px auto;
+      padding: 20px;
+      width: 350px;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 15px;
+    }
+
+    input {
+      padding: 10px;
+      width: 220px;
+      font-size: 16px;
+      border: 2px solid blue;
+      border-radius: 8px;
+    }
+
+    button {
+      padding: 10px 15px;
+      font-size: 16px;
+      cursor: pointer;
+      background: orange;
+      color: white;
+      border: none;
+      border-radius: 8px;
+    }
+
+    button:hover {
+      background: red;
+    }
+  </style>
 </head>
+
 <body>
+
+  <h1>All Website Search 🔍</h1>
 
   <h2>YouTube Search</h2>
   <form action="https://www.youtube.com/results" method="GET">
@@ -11,8 +63,7 @@
       type="text"
       placeholder="Search YouTube..."
       name="search_query"
-      required
-    >
+      required>
     <button type="submit">Search</button>
   </form>
 
@@ -22,8 +73,7 @@
       type="text"
       placeholder="Search Google..."
       name="q"
-      required
-    >
+      required>
     <button type="submit">Search</button>
   </form>
 
@@ -33,8 +83,7 @@
       type="text"
       placeholder="Search Wikipedia..."
       name="search"
-      required
-    >
+      required>
     <button type="submit">Search</button>
   </form>
 

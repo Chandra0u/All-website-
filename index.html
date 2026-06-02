@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>YouTube Search</title>
+  <title>All website Search</title>
 </head>
 <body>
   <form action="https://www.youtube.com/results" method="GET">
@@ -9,6 +9,15 @@
       type="text"
       placeholder="Search YouTube..."
       name="search_query"
+      required
+    >
+    <button type="submit">Search</button>
+  </form>
+    <form action="https://www.google.com/search"method="GET">
+    <input
+      type="text"
+      placeholder="Search Google..."
+      name="q"
       required
     >
     <button type="submit">Search</button>
